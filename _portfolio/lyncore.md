@@ -23,9 +23,9 @@ An AXI4-Lite control bridge, task configuration registers and C driver provide a
 ## Verification and Test Results
 
 - An earlier CPU/SoC validation phase recorded **676 core and system simulations**, including 600 instruction-level regression runs checking 61,416 committed instructions. These are simulation results, not FPGA performance figures.
-- CoreMark was ported and checked in short simulations; these runs are not official benchmark scores.
-- In a 160 × 90 diagnostic board test on 4 November 2026, **10 consecutive detection packets passed UART CRC checks**. The HDMI display reported no signal or an unsupported signal during that test.
-- A separate RTL simulation checked 720p video timing without camera-frame input. It does not establish that HDMI output worked on the physical display. Different FPGA candidates have different validation status.
+- CoreMark was ported and checked in short simulations.
+- In a 160 × 90 diagnostic board test on 4 November 2026, **10 consecutive detection packets passed UART CRC checks**. 
+- A separate RTL simulation checked 720p video timing without camera-frame input.  Different FPGA candidates have different validation status.
 
 **Tools and languages:** SystemVerilog, C, Python, Vivado simulation, RISC-V GCC and Pango Design Suite.
 
