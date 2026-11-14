@@ -28,3 +28,10 @@ An AXI4-Lite control bridge, task configuration registers and C driver provide a
 - A separate RTL simulation checked 720p video timing without camera-frame input. It does not establish that HDMI output worked on the physical display. Different FPGA candidates have different validation status.
 
 **Tools and languages:** SystemVerilog, C, Python, Vivado simulation, RISC-V GCC and Pango Design Suite.
+
+## Source Code
+
+[Download the diagnostic RTL source snapshot](/files/lyncore-diagnostic-rtl.zip)
+
+This snapshot is intended for source inspection and does not include all
+dependencies needed to build the complete FPGA project.
