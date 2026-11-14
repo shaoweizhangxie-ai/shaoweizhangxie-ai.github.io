@@ -16,8 +16,10 @@ the "One-Student-One-Chip" project.
 
 ## Research Interests
 
-- Robotic manipulation
-- Vision-language-action (VLA) models
+- Robotic manipulation and vision-language-action models
+- Computer architecture and RISC-V processor design
+- Semiconductor photodetectors and radiation detectors
+- Integration of devices, readout circuits, and signal processing
 
 ## Education
 
