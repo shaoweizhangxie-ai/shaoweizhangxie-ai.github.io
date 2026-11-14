@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Jilin University**  
+Undergraduate student in Electronic Science and Technology ，2025-present
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**One Student One Chip (一生一芯) Project** from UCAS 
+Engineering Trainee · July 2026–present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- Study hardware–software co-design with a focus on RISC-V processors.
+- Learn digital logic, Verilog RTL design, simulation, and debugging.
+- Explore processor runtime environments, buses, system-on-chip design,
+  logic synthesis, and basic physical design flows.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Programming and hardware description:** C, Python, Verilog
+- **Development and simulation:** Logisim; learning Linux and Verilator
+- **Engineering tools:** CAD, CATIA, SolidWorks
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+- Participated in activities marking the 80th anniversary of Jilin University.
+- Participated in university volunteer service activities.
