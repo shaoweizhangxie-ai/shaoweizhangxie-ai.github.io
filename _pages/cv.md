@@ -16,7 +16,7 @@ Undergraduate student in Electronic Science and Technology ，2025-present
 
 Work experience
 ======
-**One Student One Chip (一生一芯) Project** from UCAS 
+**One Student One Chip (一生一芯) Project** from UCAS， 
 Engineering Trainee · July 2026–present
 
 - Study hardware–software co-design with a focus on RISC-V processors.
