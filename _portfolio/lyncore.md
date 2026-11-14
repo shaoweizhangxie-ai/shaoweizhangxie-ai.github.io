@@ -1,29 +1,30 @@
 ---
 title: "LynCore: RISC-V CPU and YOLO Integration"
-excerpt: "A five-stage RISC-V processor and FPGA vision system with YOLO integration."
+excerpt: "A RISC-V CPU and FPGA vision system built around the Pango 100 Pro+ board and OV5640 camera."
 collection: portfolio
 permalink: /portfolio/lyncore/
 ---
 
 ## Overview
 
-LynCore is a 32-bit RISC-V processor and system-on-chip project developed for FPGA implementation. The work spans processor architecture, bare-metal software, accelerator control and integration with a YOLO-based vision system.
+LynCore is a 32-bit RISC-V processor and system-on-chip project integrating accelerator control and a YOLO-based vision pipeline. The project uses the **Pango 100 Pro+ FPGA development board** (Meyesemi MES2L676-100HP, Pango PG2L100H) and an **OMNIVISION OV5640 camera** connected through an FMC daughterboard.
 
 ## Processor and System
 
-- Five-stage, in-order pipeline implementing RV32I, with optional RV32M integer multiplication and division.
+- Five-stage, in-order RV32I pipeline with optional RV32M multiplication and division.
 - Machine-mode exceptions and interrupts, UART, GPIO and timer peripherals.
 - Optional two-way set-associative instruction and data caches and dynamic branch prediction.
 - Bare-metal C startup and application support.
 
 ## Accelerator Integration
 
-An AXI4-Lite control bridge, task configuration registers and C driver provide a basis for issuing accelerator jobs and polling their status. Earlier control-path tests used a simulated execution model; later FPGA vision candidates integrated a camera and YOLO detection pipeline.
+An AXI4-Lite control bridge, task configuration registers and C driver provide a basis for issuing accelerator jobs and polling their status. Earlier control-path tests used a simulated execution model; later FPGA vision candidates integrated the OV5640 camera and a YOLO detection pipeline.
 
-## Verification and Current Status
+## Verification and Test Results
 
-The CPU and system were checked with instruction-level and bare-metal simulation tests. CoreMark was ported and checked in short simulations; these are not official benchmark scores.
-
-In one 160 × 90 diagnostic board test, ten consecutive detection packets passed CRC checks over UART. HDMI output did not lock on the display during that test; the external link issue requires further investigation. Different FPGA candidates have different validation status, and the final multi-object real-time version remains to be identified and verified.
+- An earlier CPU/SoC validation phase recorded **676 core and system simulations**, including 600 instruction-level regression runs checking 61,416 committed instructions. These are simulation results, not FPGA performance figures.
+- CoreMark was ported and checked in short simulations; these runs are not official benchmark scores.
+- In a 160 × 90 diagnostic board test on 4 November 2026, **10 consecutive detection packets passed UART CRC checks**. The HDMI display reported no signal or an unsupported signal during that test.
+- A separate RTL simulation checked 720p video timing without camera-frame input. It does not establish that HDMI output worked on the physical display. Different FPGA candidates have different validation status.
 
 **Tools and languages:** SystemVerilog, C, Python, Vivado simulation, RISC-V GCC and Pango Design Suite.
