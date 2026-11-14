@@ -23,7 +23,7 @@ repository               : "shaoweizhangxie-ai/shaoweizhangxie-ai.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "原白底.jpg"
   name             : "Shaowei Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate student learning One-Student-One-Chip and exploring robotic manipulation and vision-language-action models."
