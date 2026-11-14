@@ -1,6 +1,6 @@
 ---
 title: "LynCore: RISC-V CPU and YOLO Integration"
-excerpt: "A RISC-V CPU and FPGA vision system built around the Pango 100 Pro+ board and OV5640 camera."
+excerpt: "A RISC-V CPU and YOLO Intergration FPGA vision system built around the Pango 100 Pro+ board and OV5640 camera."
 collection: portfolio
 permalink: /portfolio/lyncore/
 ---
