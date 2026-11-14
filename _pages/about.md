@@ -10,8 +10,9 @@ redirect_from:
 
 I am Shaowei Zhang, an undergraduate student in the Class of 2025
 at the College of Electronic Science and Engineering, Jilin University.
-I am currently exploring robotic manipulation and
-vision-language-action (VLA) models.
+My current interests include robotic manipulation, vision-language-action
+(VLA) models, and computer architecture and processor design through
+the "One-Student-One-Chip" project.
 
 ## Research Interests
 
